@@ -1,5 +1,5 @@
 UART
-//#include<lpc214x.h>
+#include<lpc214x.h>
 unsigned char UART0_PutChar(unsigned char Ch)
 {
 	if(Ch=='\n')
